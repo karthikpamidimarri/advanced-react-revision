@@ -9,5 +9,9 @@
     "babel-eslint": "^8.0.0",
     "eslint": "^4.6.1",
     "eslint-plugin-react": "^7.3.0"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
   }
 }
