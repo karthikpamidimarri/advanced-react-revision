@@ -23,6 +23,19 @@ This lib directory shared between under server and client. <br>
 
   yarn init <br>
 
-  It will create package.json file and give entry point to lib/server.js
+  It will create package.json file and give entry point to lib/server.js<br>
+
+## Step5:
+  To watch server using pm2 <br>
+
+
+##To use pm2 run the below commands
+For server ready run the command: yarn dev
+To check logs run : yarn pm2 logs
+To delete server : yarn pm2 delete server
+
+
+
+
 
 
