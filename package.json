@@ -1,0 +1,8 @@
+{
+  "name": "advanced-react-revision",
+  "version": "1.0.0",
+  "main": "lib/server.js",
+  "repository": "https://github.com/karthikpamidimarri/advanced-react-revision.git",
+  "author": "karthikpamidimarri <karthikpamidimari@gmail.com>",
+  "license": "MIT"
+}
