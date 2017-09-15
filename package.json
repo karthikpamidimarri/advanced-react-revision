@@ -5,17 +5,26 @@
   "repository": "https://github.com/karthikpamidimarri/advanced-react-revision.git",
   "author": "karthikpamidimarri <karthikpamidimari@gmail.com>",
   "license": "MIT",
-
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch"
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node"
   },
-  
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "eslint": "^4.6.1",
     "eslint-plugin-react": "^7.3.0"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
     "pm2": "^2.6.1"
