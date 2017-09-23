@@ -34,6 +34,7 @@
     "ejs": "^2.5.7",
     "enzyme": "^2.9.1",
     "express": "^4.15.4",
+    "lodash.debounce": "^4.0.8",
     "pm2": "^2.6.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
